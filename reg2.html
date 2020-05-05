@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Sign up form -->
+        <section class="signup">
+            <div class="container" style="display: flex;">
+                
+                <div class="signup-content" >
+                    <div class="signup-form" style=" width: 400px;">
+                        <h2 class="form-title">Зарегестрироваться</h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Ваше ФИО"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Ваш email"/>
+                            </div>
+
+                            
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass" placeholder="Пароль"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Повторите пароль"/>
+                            </div>
+
+                            <div class="form-group">
+                                
+                                 <select name="" id="" class="form-control" >
+                                                      <option value="" >Кто вы?</option>
+                                      <option value="">Работодатель</option>
+                                      <option value="">Исполнитель</option>
+                                      
+                                                    
+                                </select>           
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>Я согласен с  <a href="#" class="term-service">Условиями пользования</a></label>
+                            </div>
+
+
+                            <a href="D:\мпит\jobpply\jobpply\afterreg2.html">
+                            <div class="form-group form-button pb-2">
+                                <button type="button" class="btn btn-primary">Зарегестрироваться</button>
+                            </div>
+                            </a>
+
+                            <a href="in.html" class="text-decoration-none" style="margin-top: 40px;">У меня уже есть аккаунт</a>
+                        </form>
+
+                    </div>
+                   
+                </div>
+
+               
+                        <img src="reg2.png" style="width: 400px; height: 650px; margin-left: 175px;">
+                        
+                
+                
+            </div>
+
+
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
